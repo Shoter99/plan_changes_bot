@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 from main import check_for_changes
 import os
 import discord
