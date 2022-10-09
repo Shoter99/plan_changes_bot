@@ -38,6 +38,6 @@ async def on_ready():
     print(f'{client.user} has connected to Discord!')
     send_announcement.start()
 
-
-client.run(TOKEN)
+if "__main__" == __name__:
+    client.run(TOKEN)
 
